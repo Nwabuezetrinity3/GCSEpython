@@ -1,0 +1,13 @@
+#Ths is a comment
+
+#comments start with a hash symbol
+
+#comments are shown in a particular colour
+
+#comments are ignore by python when executing code
+
+#comments are used to describe code
+
+# either line by line or a section of code
+
+#comments make code more maintainable
