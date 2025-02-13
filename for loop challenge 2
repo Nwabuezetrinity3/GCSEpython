@@ -1,0 +1,4 @@
+name = str(input("What is your name? "))
+number = int(input("What is your favorite number? "))
+for i in range(number):
+  print(name)
