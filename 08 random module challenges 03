@@ -1,0 +1,9 @@
+import random  
+
+coin = ["h" , "t"]
+cointossbot = random.choice(coin)
+player = input("Heads or Tails? h/t ")
+if player == cointossbot:
+  print("you win")
+elif player != cointossbot:
+  print(" it was " + cointossbot)
