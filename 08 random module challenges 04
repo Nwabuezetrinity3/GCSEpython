@@ -1,0 +1,12 @@
+import random  
+
+num = [1,2,3,4,5]
+luck = random.choice(num)
+guess = int(input("Guess a number"))
+if guess > luck:
+  print("Too high")
+elif guess < luck:
+  print("Too low")
+  guess = int(input("try agin"))
+else:
+  print("You got it")
