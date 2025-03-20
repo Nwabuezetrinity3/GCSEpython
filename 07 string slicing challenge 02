@@ -1,0 +1,6 @@
+firstname = input("What is your first name? ")
+lastname = input("What is your last name? ")
+namenum = len(firstname) + len(lastname)
+
+print(firstname + " " + lastname)
+print( namenum )
