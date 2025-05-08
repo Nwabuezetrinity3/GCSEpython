@@ -1,0 +1,5 @@
+car = []
+
+for eachcar in range (3):
+    carBrand = input("enter a car brand: ")
+    car. append(carBrand)
