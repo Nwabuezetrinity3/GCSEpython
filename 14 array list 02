@@ -1,0 +1,8 @@
+car = []
+carbrandname =  input ("give me a car brand name or press x to exit")
+while carbrandname != "x" :
+    car.append(carbrandname)
+    carbrandname = input ("give me a car brand name or press x to exit")
+    
+print("exiting...")
+print(car)           
