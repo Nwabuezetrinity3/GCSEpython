@@ -1,0 +1,9 @@
+partylist = []
+names = input("enter names to invite to your party")
+
+extras =  input("do you want to enter another name if so enter their name  otherwise enter no")
+while extras  != "no":
+    names = input("enter names to invite to your party")
+    partylist.append(names)
+    extras =  input("do you want to enter another name if so enter their name  otherwise enter no")
+print(partylist)
