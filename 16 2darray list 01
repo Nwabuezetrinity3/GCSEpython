@@ -1,0 +1,8 @@
+MyspaceCompany = []
+print(MyspaceCompany)
+
+spaceships = input("give 3 space ships")
+
+MyspaceCompany.append( spaceships)
+
+print (MyspaceCompany)
