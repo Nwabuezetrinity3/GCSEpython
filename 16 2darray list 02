@@ -1,0 +1,8 @@
+Myspacecompany = ["rocket pack", "moon base", "moon buggy"]
+print(Myspacecompany)
+
+Myspacecompany[0] = " Rich people going to Mars"
+print(Myspacecompany)
+
+Myspacecompany[1] = " Rich people going to Mars"
+print(Myspacecompany)
