@@ -1,0 +1,19 @@
+def mariokartmenu():
+    print("1)1-player")
+    print("2)2-player")
+    print("3)online")
+    print("4)exit")
+    choice = int(input("pick ur gamemode"))
+    if choice == 1:
+        print("1player selected")
+        
+    elif choice == 2:
+        print("2 player selected")
+    elif choice == 3:
+        print("online selected")
+    elif choice == 4:
+        print("exiting")
+    else:
+        print("PICK AGAIN")
+
+mariokartmenu()
