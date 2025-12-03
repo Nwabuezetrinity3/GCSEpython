@@ -1,0 +1,7 @@
+def codmenu():
+    print("1)DOMINATION")
+    print("2)TEAM DEATHMATCH")
+    print("3)HEADQUARTERS")
+    choice = int(input("pick ur gamemode"))
+
+codmenu()
